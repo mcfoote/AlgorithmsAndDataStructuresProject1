@@ -382,8 +382,9 @@ public class Main {
 		    int count = 0;
 		    boolean displayAll = false;
 
+		    //Display menu loop.
 		    while (true) {
-		        // Read the record 
+		        
 		        student.readFromFile(raFile);
 		        String record = student.toString();
 		        
@@ -395,18 +396,18 @@ public class Main {
 		        System.out.println(record);
 		        count++;
 
-		        // Check if we've displayed 5 records, and prompt for the next action
+		        // Check if we've displayed 5 records, and prompt for the next choice.
 		        if (count % 5 == 0) {
 		        	
 		            System.out.print("Enter N (for next 5 records), A (for all remaining records), M(for main menu): ");
 		            char choice = scanner.next().charAt(0); 
 
 		            if (choice == 'N' || choice == 'n') {
-		                continue; // Display the next set of records
+		                continue; // Display next set.
 		            } else if (choice == 'A' || choice == 'a') {
-		                displayAll = true; // Display all remaining records
+		                displayAll = true; 
 		            } else if (choice == 'M' || choice == 'm') {
-		                break; // Return to menu
+		                break; // Return to menu loop.
 		            }
 		            
 		        }
