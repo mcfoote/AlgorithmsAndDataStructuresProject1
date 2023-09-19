@@ -1,0 +1,90 @@
+Programmer:		Mitchell Foote
+Course:			COSC 311, F'23
+Project:		1
+Due date:		9-19-23
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 3
+No random access file selected, use option 1 or 2 to begin.
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 4
+No random access file selected, use option 1 or 2 to begin.
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbx
+File not found.
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbs
+Nancy               Koffman             4444      3.56      
+Karen               Thomson             2222      3.2       
+Sara                Dorthy              9999      1.79      
+Adam                Nelson              7777      2.7       
+Kate                Peterson            6666      3.5       
+Enter N (for next 5 records), A (for all remaining records), M(for main menu): m
+null
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 3
+Enter a record number: rf
+Invalid input. Enter a valid integer: 
+rt
+Invalid input. Enter a valid integer: 
+1
+Can't read deleted record.
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 
